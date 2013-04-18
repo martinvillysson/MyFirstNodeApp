@@ -1,0 +1,349 @@
+/*
+ * Import nib
+ */
+/*
+ * Grab a custom font from Google
+ */
+@import url("http//fonts.googleapis.com/css?family=Open+Sans");
+/*
+ * Nib provides a CSS reset
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+/*
+ * Store the main color and
+ * background color as variables
+ */
+body {
+  color: #000;
+  font-size: 100%;
+  font-family: "Open Sans";
+}
+p {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+/* 16px */
+  line-height: 1.5em;
+/* 24px */
+}
+.p-top-marg {
+  margin-top: 1.5em;
+}
+h1 {
+  margin-top: 0.9231em;
+  margin-bottom: 0em;
+  font-size: 1.625em;
+/* 26px */
+  line-height: 1.8462em;
+/* 48px */
+}
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-size: 1.5em;
+/* 24px */
+  line-height: 1em;
+/* 24px */
+}
+h3 {
+  margin-top: 1.0909em;
+  margin-bottom: 0em;
+  font-size: 1.375em;
+/* 22px */
+  line-height: 1.0909em;
+/* 24px */
+}
+h4 {
+  margin-top: 1.2em;
+  margin-bottom: 0em;
+  font-size: 1.25em;
+/* 20px */
+  line-height: 1.2em;
+/* 24px */
+}
+h5 {
+  margin-top: 1.3333em;
+  margin-bottom: 0em;
+  font-size: 1.125em;
+/* 18px */
+  line-height: 1.3333em;
+/* 24px */
+}
+.accent-color-1 {
+  background: #0072c6;
+}
+.accent-color-2 {
+  background: #262960;
+}
+.accent-color-3 {
+  background: #cd7a33;
+}
+.accent-color-4 {
+  background: #f95f19;
+}
+.square {
+  height: 0;
+}
+.tile {
+  position: relative;
+}
+.tile .tile-textbox {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+  color: #fff;
+}
+.box-fill {
+  margin-bottom: -100%;
+  padding-bottom: 100%;
+}
+.body-container {
+  margin: 0 auto;
+  min-width: 755px;
+  max-width: 1140px;
+  width: 100%;
+}
+.container {
+  margin: 0 20px;
+}
+.row {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.row li {
+  list-style-type: none;
+}
+.row-marg {
+  margin-top: 3.8%;
+}
+.no-marg {
+  margin: 0;
+}
+.no-top-marg {
+  margin-top: 0;
+}
+.no-bottom-marg {
+  margin-bottom: 0;
+}
+.onecol,
+.twocol,
+.threecol,
+.fourcol,
+.fivecol,
+.sixcol,
+.sevencol,
+.eightcol,
+.ninecol,
+.tencol,
+.elevencol {
+  float: left;
+  margin-right: 3.8%;
+  min-height: 1px;
+}
+.row .onecol {
+  width: 4.85%;
+}
+.row .onecol.square {
+  padding-bottom: 4.85%;
+}
+.row .twocol {
+  width: 13.45%;
+}
+.row .twocol.square {
+  padding-bottom: 13.45%;
+}
+.row .twocol-box-fill {
+  padding-bottom: 13.45%;
+  height: 0;
+}
+.row .threecol {
+  width: 22.05%;
+}
+.row .threecol.square {
+  padding-bottom: 22.05%;
+}
+.row .fourcol {
+  width: 30.75%;
+}
+.row .fourcol.square {
+  padding-bottom: 30.75%;
+}
+.row .fivecol {
+  width: 39.45%;
+}
+.row .fivecol.square {
+  padding-bottom: 39.45%;
+}
+.row .sixcol {
+  width: 48%;
+}
+.row .sixcol.square {
+  padding-bottom: 48%;
+}
+.row .sevencol {
+  width: 56.75%;
+}
+.row .sevencol.square {
+  padding-bottom: 56.75%;
+}
+.row .eightcol {
+  width: 65.4%;
+}
+.row .eightcol.square {
+  padding-bottom: 65.4%;
+}
+.row .ninecol {
+  width: 74.05%;
+}
+.row .ninecol.square {
+  padding-bottom: 74.05%;
+}
+.row .tencol {
+  width: 82.7%;
+}
+.row .tencol.square {
+  padding-bottom: 82.7%;
+}
+.row .elevencol {
+  width: 91.35%;
+}
+.row .elevencol.square {
+  padding-bottom: 91.35%;
+}
+.row .twelvecol {
+  float: left;
+  width: 100%;
+}
+.row .twelvecol.square {
+  padding-bottom: 100%;
+}
+.row .last {
+  margin-right: 0px;
+}
+img,
+object,
+embed {
+  max-width: 100%;
+}
+img {
+  height: auto;
+}
+/* ==================================================================================================================== */
+/*                                                  Navigation                                                                */
+/* ==================================================================================================================== */
+.navigation a {
+  color: #fff;
+}
+/* ==================================================================================================================== */
+/*                                                  BLOG                                                                */
+/* ==================================================================================================================== */
+.blog-date-text {
+  color: #fff;
+}
+.blog-item {
+  margin-bottom: 3.8%;
+  color: #000;
+}
+/* ==================================================================================================================== */
+/*                                                  FOOTER                                                              */
+/* ==================================================================================================================== */
+.footer-content {
+  border-top: 1px solid #d9d9d9;
+  color: #808080;
+}
+.footer-inner-content {
+  padding: 20px 0;
+}
+.footer-inner-content p {
+  font-size: 0.8em;
+}
