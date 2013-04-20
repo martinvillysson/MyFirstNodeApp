@@ -2,10 +2,10 @@ extends layout
 
 block content
     .eightcol
-        h2
-            | Vivamus hendrerit arcu sed erat molestie
-        p
-            | Tjenare
+        .row
+            .twelvecol.last
+                each post in articles
+                    !=post.text
 
 block sidebar
     .fourcol.last.accent-color-4

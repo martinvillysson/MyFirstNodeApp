@@ -26,7 +26,7 @@ app.use(stylus.middleware(
     { src: __dirname + '/public'
         , compile: compile
     }
-))
+));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
